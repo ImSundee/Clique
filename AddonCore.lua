@@ -86,6 +86,7 @@ local projects = {
     classic = "WOW_PROJECT_CLASSIC",
     bcc = "WOW_PROJECT_BURNING_CRUSADE_CLASSIC",
     wrath = "WOW_PROJECT_WRATH_CLASSIC",
+    cata = "WOW_PROJECT_CATACLYSM_CLASSIC"
 }
 
 local project_id = _G["WOW_PROJECT_ID"]
@@ -104,6 +105,10 @@ end
 
 function addon:ProjectIsWrath()
     return project_id ==  _G[projects.wrath]
+end
+
+function addon:ProjectIsCata()
+    return project_id ==  _G[projects.cata]
 end
 
 function addon:IsDragonflight()

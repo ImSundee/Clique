@@ -44,6 +44,7 @@ modules\Blizzard_utils.lua
 modules\Blizzard_classic.lua
 modules\Blizzard_retail.lua
 modules\Blizzard_wrath.lua
+modules\Blizzard_cata.lua
 modules\Blizzard_dragonflight.lua
 
 #tests\HeaderTest.xml
